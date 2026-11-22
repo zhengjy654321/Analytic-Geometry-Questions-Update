@@ -1,0 +1,39 @@
+name: Build Analytic Geometry PDF
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'outline.yaml'
+      - 'build_pdf.py'
+      - '0*/**'
+  workflow_dispatch:
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system fonts & WeasyPrint dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk libpango-1.0-0 libpangoft2-1.0-0 libcairo2
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build merged PDF
+        run: python3 build_pdf.py -o output/解析几何小题合集.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: analytic-geometry-pdf
+          path: output/解析几何小题合集.pdf

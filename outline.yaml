@@ -1,0 +1,129 @@
+title: 解析几何小题笔记合集
+subtitle: 按知识架构重排 · 保留手写原稿与原序号对照
+modules:
+- id: '01'
+  title: 一、直线与方程
+  dir: 01_直线与方程
+  subsections:
+  - title: 1. 倾斜角、斜率与方向向量
+    items:
+    - title: 倾斜角
+      orig_num: 大写 一、
+      pages: P2
+      file: 01_直线与方程/01_01_倾斜角.md
+    - title: 用方向向量表示倾斜角
+      orig_num: 大写 二、
+      pages: P2
+      file: 01_直线与方程/01_02_用方向向量表示倾斜角.md
+    - title: α与方向向量关系（已知两点求斜率公式）
+      orig_num: 大写 三、
+      pages: P2
+      file: 01_直线与方程/01_03_α与方向向量关系.md
+    - title: 直线斜率
+      orig_num: 大写 四、
+      pages: P2
+      file: 01_直线与方程/01_04_直线斜率.md
+    - title: k与α关系（含倾斜角范围例题）
+      orig_num: 大写 五、
+      pages: P2, P5
+      file: 01_直线与方程/01_05_k与α关系.md
+    - title: 证明A、B、C三点共线
+      orig_num: 大写 六、
+      pages: P2
+      file: 01_直线与方程/01_06_证明三点共线.md
+    - title: 分式求值域
+      orig_num: 大写 七、
+      pages: P2
+      file: 01_直线与方程/01_07_分式求值域.md
+  - title: 2. 直线方程
+    items:
+    - title: 直线的点斜式方程
+      orig_num: 大写 十、
+      pages: P3
+      file: 01_直线与方程/02_01_直线的点斜式方程.md
+    - title: 直线的斜截式方程
+      orig_num: 大写 十一、
+      pages: P3
+      file: 01_直线与方程/02_02_直线的斜截式方程.md
+    - title: 直线的方向向量、法向量与一般式的关系、直线的点法式方程
+      orig_num: 小写 40、
+      pages: P41
+      file: 01_直线与方程/02_03_方向向量法向量与点法式方程.md
+  - title: 3. 位置关系、夹角与距离
+    items:
+    - title: 两直线平行判定
+      orig_num: 大写 八、
+      pages: P5
+      file: 01_直线与方程/03_01_两直线平行判定.md
+    - title: 两直线垂直判定（含垂足与垂心例题）
+      orig_num: 大写 九、
+      pages: P5, P3
+      file: 01_直线与方程/03_02_两直线垂直判定.md
+    - title: 两直线位置关系（斜截式、一般式）
+      orig_num: 小写 41、
+      pages: P42-P43
+      file: 01_直线与方程/03_03_两直线位置关系.md
+    - title: 直线夹角与到角公式
+      orig_num: 小写 39、
+      pages: P40-P41
+      file: 01_直线与方程/03_04_直线夹角与到角公式.md
+    - title: 点与直线位置关系
+      orig_num: 小写 43、
+      pages: P46
+      file: 01_直线与方程/03_05_点与直线位置关系.md
+    - title: 距离相关公式（含证明）
+      orig_num: 小写 42、
+      pages: P43-P45
+      file: 01_直线与方程/03_06_距离相关公式.md
+- id: '02'
+  title: 二、圆与方程
+  dir: 02_圆与方程
+  subsections:
+  - title: 1. 圆的方程与求法
+    items:
+    - title: 圆的直径式方程
+      orig_num: 大写 二十五、
+      pages: P4
+      file: 02_圆与方程/01_01_圆的直径式方程.md
+    - title: 圆的一般方程
+      orig_num: 大写 二十八、
+      pages: P6
+      file: 02_圆与方程/01_02_圆的一般方程.md
+    - title: 二元二次方程表示圆的条件
+      orig_num: 大写 二十九、
+      pages: P6
+      file: 02_圆与方程/01_03_二元二次方程表示圆的条件.md
+    - title: 求圆的方程方法（几何性质法、待定系数法）
+      orig_num: 大写 二十六、
+      pages: P4
+      file: 02_圆与方程/01_04_求圆的方程方法.md
+    - title: 相关点法求轨迹方程
+      orig_num: 大写 三十一、
+      pages: P7
+      file: 02_圆与方程/01_05_相关点法求轨迹方程.md
+    - title: 圆的参数方程
+      orig_num: 小写 47、(1)(2)
+      pages: P51
+      file: 02_圆与方程/01_06_圆的参数方程.md
+  - title: 2. 点、线、圆的位置关系与几何性质
+    items:
+    - title: 点到圆上的距离最值
+      orig_num: 大写 二十七、
+      pages: P4
+      file: 02_圆与方程/02_01_点到圆上的距离最值.md
+    - title: 直线与圆的位置关系
+      orig_num: 大写 三十二、
+      pages: P7
+      file: 02_圆与方程/02_02_直线与圆的位置关系.md
+    - title: 切线长公式
+      orig_num: 小写 44、
+      pages: P46
+      file: 02_圆与方程/02_03_切线长公式.md
+    - title: 圆和圆的位置关系
+      orig_num: 大写 三十三、
+      pages: P8
+      file: 02_圆与方程/02_04_圆和圆的位置关系.md
+    - title: 两圆公共弦、公切线直线方程
+      orig_num: 大写 三十四、
+      pages: P8
+      file: 02_圆与方程/02_05_两圆公共弦与公切线直线方程.md
