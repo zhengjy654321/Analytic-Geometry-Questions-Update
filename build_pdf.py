@@ -267,6 +267,8 @@ def convert_markdown_with_math(md_text: str) -> str:
     text = re.sub(r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", _sub_inline, text)
 
     html_out = markdown.markdown(text, extensions=["tables", "fenced_code", "sane_lists"])
+    # ==重点== 语法：PDF 中渲染为红色加粗（可包含 $公式$）
+    html_out = re.sub(r"==(?=\S)(.+?)(?<=\S)==", r'<mark class="key-point">\1</mark>', html_out)
 
     for key, val in placeholders.items():
         html_out = html_out.replace(f"<p>{key}</p>", val)
@@ -613,6 +615,9 @@ def build_html(
       object-fit: contain;
       margin: 0 auto;
     }}
+
+    /* ==重点== 标记 */
+    mark.key-point {{ background: none; color: #c81e1e; font-weight: 700; padding: 0; }}
 
     /* Rich Markdown */
     .rich-content {{ padding: 2px 4px 4px 4px; }}

@@ -37,6 +37,9 @@ PDF 默认用本机的 Chrome/Chromium 无头打印，效果与在浏览器里�
 ### 方法二：GitHub Actions 云端自动合成
 本仓库已内置 `.github/workflows/build-pdf.yml`。上传到 GitHub 后，每次向 `main` 推送 `.md`、图片、`outline.yaml` 或 `build_pdf.py` 的修改（或在仓库 **Actions** 页面点击 **Run workflow**），GitHub 会自动运行脚本并生成最新 PDF 供下载。
 
+## 写作约定：重点标红
+在 md 里用 `==重点==` 包住需要突出的文字或公式（如 `==$x = 2a - x_0$==`），合成 PDF 时会自动变成红色加粗。完整约定见 [CLAUDE.md](CLAUDE.md)。
+
 ## 如何调整大纲顺序或添加内容
 - **调整合并顺序**：直接编辑 `outline.yaml` 中的模块或条目顺序即可，无需改动图片文件。
 - **添加纠错或心得**：直接打开对应知识点的 `.md` 文件，在图片上方新增一行文字即可，合并脚本会自动把它渲染成高亮备注框。
