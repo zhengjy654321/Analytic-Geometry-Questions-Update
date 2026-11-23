@@ -13,6 +13,10 @@
 """
 
 import argparse
+import os
+import shutil
+import subprocess
+import tempfile
 import base64
 import html
 import mimetypes
@@ -796,6 +800,44 @@ def build_html(
 """
 
 
+def find_chrome() -> str | None:
+    """依次查找环境变量 CHROME_PATH 和系统里常见的 Chrome / Chromium 可执行文件。"""
+    env = os.environ.get("CHROME_PATH")
+    if env and Path(env).exists():
+        return env
+    for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser", "chrome"):
+        found = shutil.which(name)
+        if found:
+            return found
+    for cand in (
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+        "/opt/pw-browsers/chromium",
+    ):
+        if Path(cand).exists():
+            return cand
+    return None
+
+
+def render_with_chrome(html_str: str, out_pdf: Path) -> None:
+    """用无头 Chrome 打印 PDF，排版与在浏览器里预览 HTML 完全一致。"""
+    chrome = find_chrome()
+    if not chrome:
+        print("未找到 Chrome/Chromium，请安装 Chrome，或设置 CHROME_PATH，或改用 --engine weasyprint", file=sys.stderr)
+        sys.exit(1)
+    with tempfile.TemporaryDirectory() as tmp:
+        html_path = Path(tmp) / "book.html"
+        html_path.write_text(html_str, encoding="utf-8")
+        cmd = [
+            chrome, "--headless=new", "--no-sandbox", "--disable-gpu",
+            "--no-pdf-header-footer", "--run-all-compositor-stages-before-draw",
+            "--virtual-time-budget=20000",
+            f"--print-to-pdf={out_pdf.resolve()}", html_path.resolve().as_uri(),
+        ]
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="按 outline.yaml 自动合并排版解析几何小题笔记为 PDF")
     parser.add_argument("--outline", default=str(REPO_ROOT / "outline.yaml"), help="outline.yaml 路径")
@@ -805,6 +847,8 @@ def main() -> None:
     parser.add_argument("--subtitle", default="", help="自定义副标题")
     parser.add_argument("-o", "--output", default=str(REPO_ROOT / "output" / "解析几何小题合集.pdf"), help="输出 PDF 路径")
     parser.add_argument("--html-only", default="", help="仅输出自包含 HTML 文件路径")
+    parser.add_argument("--engine", choices=["chrome", "weasyprint"], default="chrome",
+                        help="PDF 渲染引擎：chrome（默认，与浏览器预览一致）或 weasyprint（备用）")
     args = parser.parse_args()
 
     selected = {m.strip().zfill(2) for m in args.modules.split(",") if m.strip()} or None
@@ -823,15 +867,17 @@ def main() -> None:
         print(f"已导出 HTML：{out_html}")
         return
 
-    try:
-        from weasyprint import HTML
-    except ImportError:
-        print("未安装 weasyprint，请先运行：pip install -r requirements.txt", file=sys.stderr)
-        sys.exit(1)
-
     out_pdf = Path(args.output)
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
-    HTML(string=html_str, base_url=str(REPO_ROOT)).write_pdf(str(out_pdf))
+    if args.engine == "chrome":
+        render_with_chrome(html_str, out_pdf)
+    else:
+        try:
+            from weasyprint import HTML
+        except ImportError:
+            print("未安装 weasyprint，请先运行：pip install weasyprint", file=sys.stderr)
+            sys.exit(1)
+        HTML(string=html_str, base_url=str(REPO_ROOT)).write_pdf(str(out_pdf))
     print(f"已生成合并 PDF：{out_pdf} ({out_pdf.stat().st_size / 1024:.1f} KB)")
 
 

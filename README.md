@@ -30,6 +30,8 @@ python3 build_pdf.py --modules 01 -o output/01_直线与方程.pdf
 python3 build_pdf.py --subsection "对称问题"   # 只导出标题含关键词的小节
 ```
 
+PDF 默认用本机的 Chrome/Chromium 无头打印，效果与在浏览器里预览 HTML 一致（找不到时可设置 `CHROME_PATH`，或加 `--engine weasyprint` 改用备用引擎）。中文字体用思源（Noto Sans/Serif CJK SC），本机没装时会退回系统字体。
+
 公式（`$...$`、`$$...$$`、分式、根号、`cases` 方程组）由 `build_pdf.py` 内置引擎离线排版，不需要安装 TeX。
 
 ### 方法二：GitHub Actions 云端自动合成
