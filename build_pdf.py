@@ -103,8 +103,9 @@ def _render_latex_expr(tex: str) -> str:
                 continue
 
         # 2. \frac{num}{den}
-        if tex.startswith(r"\frac", i):
-            num, next_i = _extract_brace_arg(tex, i + 5)
+        if tex.startswith(r"\frac", i) or tex.startswith(r"\dfrac", i):
+            skip = 6 if tex.startswith(r"\dfrac", i) else 5
+            num, next_i = _extract_brace_arg(tex, i + skip)
             den, next_i = _extract_brace_arg(tex, next_i)
             out.append(
                 f'<span class="m-frac">'
@@ -169,6 +170,10 @@ def _render_latex_expr(tex: str) -> str:
         # 5. Commands
         if tex[i] == "\\":
             # Spacing commands \; \, \quad \
+            if tex.startswith(r"\qquad", i):
+                out.append('<span class="m-quad"></span><span class="m-quad"></span>')
+                i += 6
+                continue
             if tex.startswith(r"\quad", i):
                 out.append('<span class="m-quad"></span>')
                 i += 5
@@ -229,6 +234,28 @@ def _render_latex_expr(tex: str) -> str:
                     "iff": "&#10234;",
                     "Longrightarrow": "&#10233;",
                     "Leftarrow": "&#8656;",
+                    "cot": '<span class="m-op">cot</span>',
+                    "arctan": '<span class="m-op">arctan</span>',
+                    "ln": '<span class="m-op">ln</span>',
+                    "approx": "&#8776;",
+                    "cup": "&#8746;",
+                    "cap": "&#8745;",
+                    "varnothing": "&#8709;",
+                    "emptyset": "&#8709;",
+                    "subset": "&#8834;",
+                    "sigma": "&#963;",
+                    "varphi": "&#966;",
+                    "phi": "&#966;",
+                    "omega": "&#969;",
+                    "rho": "&#961;",
+                    "delta": "&#948;",
+                    "geqslant": "&#8805;",
+                    "leqslant": "&#8804;",
+                    "notin": "&#8713;",
+                    "forall": "&#8704;",
+                    "mp": "&#8723;",
+                    "sum": "&#8721;",
+                    "div": "&#247;",
                 }
                 if cmd in sym_map:
                     out.append(sym_map[cmd])
