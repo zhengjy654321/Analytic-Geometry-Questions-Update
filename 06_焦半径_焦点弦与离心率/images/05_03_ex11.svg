@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 370" width="660" height="370">
+<rect width="660" height="370" fill="#ffffff"/>
+<polygon points="200.0,35.8 96.0,330.0 304.0,330.0" fill="#eff6ff" fill-opacity="0.45" stroke="#1e3a5f" stroke-width="1.9"/>
+<line x1="200.0" y1="35.8" x2="200.0" y2="330.0" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="96.0" y1="330.0" x2="252.0" y2="182.9" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+<polygon points="96.0,330.0 200.0,330.0 200.0,231.9" fill="#7c3aed" fill-opacity="0.18" stroke="#7c3aed" stroke-width="0.8"/>
+<polyline points="200.0,323.0 207.0,323.0 207.0,330.0" fill="none" stroke="#d97706" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M200.0,65.8 A30.0,30.0 0 0,1 190.0,64.1" fill="none" stroke="#d97706" stroke-width="1.4"/>
+<text x="193.1" y="80.3" font-family="serif" font-size="13" fill="#d97706" text-anchor="middle">α</text>
+<path d="M200.0,249.9 A18.0,18.0 0 0,1 186.9,244.3" fill="none" stroke="#7c3aed" stroke-width="1.4"/>
+<text x="188.1" y="263.5" font-family="serif" font-size="13" fill="#7c3aed" text-anchor="middle">β</text>
+<line x1="230.7" y1="107.7" x2="221.3" y2="111.0" stroke="#0f766e" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="282.7" y1="254.8" x2="273.3" y2="258.1" stroke="#0f766e" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="146.0" y1="325.0" x2="146.0" y2="335.0" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="150.0" y1="325.0" x2="150.0" y2="335.0" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="250.0" y1="325.0" x2="250.0" y2="335.0" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="254.0" y1="325.0" x2="254.0" y2="335.0" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="200.0" cy="35.8" r="2.8" fill="#1e293b"/>
+<circle cx="96.0" cy="330.0" r="2.8" fill="#1e293b"/>
+<circle cx="304.0" cy="330.0" r="2.8" fill="#1e293b"/>
+<circle cx="200.0" cy="330.0" r="2.8" fill="#1e293b"/>
+<circle cx="252.0" cy="182.9" r="2.8" fill="#1e293b"/>
+<circle cx="200.0" cy="231.9" r="2.8" fill="#1e293b"/>
+<text x="195.0" y="27.8" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">A</tspan></text>
+<text x="78.0" y="336.0" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">B</tspan></text>
+<text x="310.0" y="336.0" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">C</tspan></text>
+<text x="196.0" y="350.0" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">D</tspan></text>
+<text x="260.0" y="182.9" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">E</tspan></text>
+<text x="208.0" y="241.9" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">M</tspan></text>
+<text x="132.0" y="182.9" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">12</text>
+<text x="148.0" y="348.0" font-family="sans-serif" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="normal">4</text>
+<text x="252.0" y="348.0" font-family="sans-serif" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="normal">4</text>
+<text x="240.0" y="109.4" font-family="sans-serif" font-size="13" fill="#0f766e" text-anchor="middle" font-weight="normal">6</text>
+<text x="292.0" y="256.5" font-family="sans-serif" font-size="13" fill="#0f766e" text-anchor="middle" font-weight="normal">6</text>
+<text x="400.0" y="50.0" font-family="sans-serif" font-size="12.5" fill="#1e3a5f" text-anchor="start" font-weight="normal">例 11：纸杯的轴截面 △ABC</text>
+<text x="400.0" y="77.0" font-family="sans-serif" font-size="12.5" fill="#64748b" text-anchor="start" font-weight="normal">母线 12，开口直径 BC = 8</text>
+<text x="400.0" y="104.0" font-family="sans-serif" font-size="12.5" fill="#dc2626" text-anchor="start" font-weight="normal">水面长轴 BE，E 为 AC 中点</text>
+<text x="400.0" y="131.0" font-family="sans-serif" font-size="12.5" fill="#dc2626" text-anchor="start" font-weight="normal">AD、BE 是两条中线 ⇒ M 为重心</text>
+<text x="400.0" y="158.0" font-family="sans-serif" font-size="12.5" fill="#d97706" text-anchor="start" font-weight="normal">cos α = |AD| / |AB| = 2√2 / 3</text>
+<text x="400.0" y="185.0" font-family="sans-serif" font-size="12.5" fill="#7c3aed" text-anchor="start" font-weight="normal">|BE| = 2√17，|MD| = |AD|/3，|BM| = 2|BE|/3</text>
+<text x="400.0" y="212.0" font-family="sans-serif" font-size="12.5" fill="#7c3aed" text-anchor="start" font-weight="normal">cos β = |MD| / |BM| = 2√2 / √17</text>
+<text x="400.0" y="239.0" font-family="sans-serif" font-size="12.5" fill="#dc2626" text-anchor="start" font-weight="normal">e = cos β / cos α = 3√17 / 17</text>
+</svg>

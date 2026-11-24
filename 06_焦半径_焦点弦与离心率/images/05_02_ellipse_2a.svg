@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 390" width="620" height="390">
+<rect width="620" height="390" fill="#ffffff"/>
+<polygon points="220.0,40.1 19.5,374.2 420.5,374.2" fill="none" fill-opacity="1" stroke="#1e3a5f" stroke-width="1.8"/>
+<circle cx="220.0" cy="250.0" r="108.0" fill="#eff6ff" fill-opacity="0.6" stroke="#2563eb" stroke-width="1.7"/>
+<circle cx="220.0" cy="92.6" r="27.0" fill="#eff6ff" fill-opacity="0.6" stroke="#2563eb" stroke-width="1.7"/>
+<line x1="220.0" y1="40.1" x2="220.0" y2="374.2" stroke="#64748b" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="125.1" y1="181.0" x2="273.3" y2="92.1" stroke="#dc2626" stroke-width="1.1" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="141.3" y1="171.3" x2="257.0" y2="101.8" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+<circle cx="220.0" cy="250.0" r="3" fill="#1e293b"/>
+<circle cx="220.0" cy="92.6" r="3" fill="#1e293b"/>
+<polygon points="127.4,194.4 196.8,78.7 220.0,92.6 150.5,208.3" fill="#0f766e" fill-opacity="0.15" stroke="#0f766e" stroke-width="0.8"/>
+<polygon points="220.0,250.0 150.5,208.3 220.0,92.6" fill="#d97706" fill-opacity="0.22" stroke="#d97706" stroke-width="0.8"/>
+<line x1="220.0" y1="250.0" x2="127.4" y2="194.4" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="220.0" y1="92.6" x2="196.8" y2="78.7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="220.0" y1="250.0" x2="164.4" y2="157.4" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="220.0" y1="92.6" x2="233.9" y2="115.7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="220.0" y1="92.6" x2="150.5" y2="208.3" stroke="#0f766e" stroke-width="1.8" stroke-dasharray="6,3" stroke-linecap="round"/>
+<line x1="220.0" y1="250.0" x2="220.0" y2="92.6" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="127.4" y1="194.4" x2="196.8" y2="78.7" stroke="#0f766e" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="138.6" y1="185.4" x2="130.0" y2="180.3" stroke="#dc2626" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="150.3" y1="160.0" x2="155.4" y2="168.6" stroke="#dc2626" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="163.7" y1="124.1" x2="172.3" y2="129.3" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="165.8" y1="120.7" x2="174.4" y2="125.8" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="183.3" y1="140.2" x2="188.4" y2="148.8" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="186.7" y1="138.2" x2="191.9" y2="146.8" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="133.4,198.0 137.0,192.0 131.0,188.4" fill="none" stroke="#d97706" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="202.9,82.3 199.2,88.3 193.2,84.7" fill="none" stroke="#d97706" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="156.5,211.9 160.1,205.9 154.1,202.3" fill="none" stroke="#d97706" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="127.4" cy="194.4" r="2.6" fill="#1e293b"/>
+<circle cx="196.8" cy="78.7" r="2.6" fill="#1e293b"/>
+<circle cx="164.4" cy="157.4" r="2.6" fill="#1e293b"/>
+<circle cx="233.9" cy="115.7" r="2.6" fill="#1e293b"/>
+<circle cx="141.3" cy="171.3" r="2.6" fill="#1e293b"/>
+<circle cx="257.0" cy="101.8" r="2.6" fill="#1e293b"/>
+<circle cx="150.5" cy="208.3" r="2.6" fill="#1e293b"/>
+<text x="215.0" y="34.1" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">S</tspan></text>
+<text x="226.0" y="266.0" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">O</tspan><tspan dy="4" font-size="10">1</tspan></text>
+<text x="228.0" y="96.6" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">O</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="109.4" y="200.4" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">A</tspan></text>
+<text x="178.8" y="80.7" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">B</tspan></text>
+<text x="121.3" y="177.3" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">M</tspan></text>
+<text x="263.0" y="103.8" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">N</tspan></text>
+<text x="162.4" y="175.4" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">E</tspan></text>
+<text x="238.9" y="109.7" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">F</tspan></text>
+<text x="156.5" y="222.3" font-family="serif" font-size="14" fill="#1e293b"><tspan font-style="italic">D</tspan></text>
+<text x="390.0" y="40.0" font-family="sans-serif" font-size="12.5" fill="#1e3a5f" text-anchor="start" font-weight="normal">第一步：求 2a</text>
+<text x="390.0" y="64.0" font-family="sans-serif" font-size="12.5" fill="#dc2626" text-anchor="start" font-weight="normal">切线长：|MA| = |ME|（一道杠）</text>
+<text x="390.0" y="88.0" font-family="sans-serif" font-size="12.5" fill="#2563eb" text-anchor="start" font-weight="normal">　　　　|MB| = |MF|（两道杠）</text>
+<text x="390.0" y="112.0" font-family="sans-serif" font-size="12.5" fill="#dc2626" text-anchor="start" font-weight="normal">2a = |MF| + |ME| = |MB| + |MA| = |AB|</text>
+<text x="390.0" y="136.0" font-family="sans-serif" font-size="12.5" fill="#0f766e" text-anchor="start" font-weight="normal">ABO₂D 是矩形 ⇒ |O₂D| = |AB| = 2a</text>
+<text x="390.0" y="160.0" font-family="sans-serif" font-size="12.5" fill="#d97706" text-anchor="start" font-weight="normal">|O₁D| = r₁ − r₂</text>
+<text x="390.0" y="184.0" font-family="sans-serif" font-size="12.5" fill="#d97706" text-anchor="start" font-weight="normal">Rt△O₁DO₂：(2a)² = d² − (r₁ − r₂)²</text>
+</svg>
