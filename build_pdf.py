@@ -374,7 +374,15 @@ def build_html(
     for mod in modules:
         subs = mod.get("subsections", [])
         if subsection_keyword:
-            subs = [s for s in subs if subsection_keyword in s.get("title", "")]
+            kept = []
+            for s in subs:
+                if subsection_keyword in s.get("title", ""):
+                    kept.append(s)
+                else:  # 不分小节的模块按条目标题筛选
+                    its = [it for it in s.get("items", []) if subsection_keyword in it.get("title", "")]
+                    if its and not s.get("title"):
+                        kept.append(dict(s, items=its))
+            subs = kept
         if subs:
             mod_copy = dict(mod)
             mod_copy["subsections"] = subs
@@ -403,14 +411,20 @@ def build_html(
             sub_id = f"{mod_id}-sub-{s_idx}"
             sub_title = html.escape(sub["title"])
             item_count = len(sub.get("items", []))
-            sub_toc_items.append(
-                f'<li><a href="#{sub_id}">{sub_title}</a>'
-                f'<span class="toc-meta">{item_count} 项</span></li>'
-            )
+            if sub_title:
+                sub_toc_items.append(
+                    f'<li><a href="#{sub_id}">{sub_title}</a>'
+                    f'<span class="toc-meta">{item_count} 项</span></li>'
+                )
+                body_blocks.append(f'<h3 class="sub-heading" id="{sub_id}">{sub_title}</h3>')
+            else:
+                # 不分小节的模块（如「五、离心率专题」）：目录直接列条目
+                for i_idx, it in enumerate(sub.get("items", []), start=1):
+                    sub_toc_items.append(
+                        f'<li><a href="#{sub_id}-item-{i_idx}">{html.escape(it["title"])}</a></li>'
+                    )
 
-            body_blocks.append(f'<h3 class="sub-heading" id="{sub_id}">{sub_title}</h3>')
-
-            for item in sub.get("items", []):
+            for i_idx, item in enumerate(sub.get("items", []), start=1):
                 item_title = html.escape(item["title"])
                 orig_num = html.escape(str(item.get("orig_num", "")))
                 pages = html.escape(str(item.get("pages", "")))
@@ -418,7 +432,7 @@ def build_html(
                 md_path = (outline_path.parent / item["file"]).resolve()
                 inner_html = render_item_markdown(md_path)
 
-                body_blocks.append('<article class="topic-block">')
+                body_blocks.append(f'<article class="topic-block" id="{sub_id}-item-{i_idx}">')
                 body_blocks.append(
                     f'<div class="topic-header">'
                     f'<span class="topic-title">{item_title}</span>'
