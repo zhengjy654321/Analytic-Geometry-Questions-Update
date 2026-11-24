@@ -219,6 +219,16 @@ def _render_latex_expr(tex: str) -> str:
                     "Leftrightarrow": "&#8660;",
                     "cong": "&#8773;",
                     "in": "&#8712;",
+                    "gamma": "&#947;",
+                    "varphi": "&#966;",
+                    "ne": "&#8800;",
+                    "leq": "&#8804;",
+                    "geq": "&#8805;",
+                    "cdots": "&#8943;",
+                    "ldots": "&#8230;",
+                    "iff": "&#10234;",
+                    "Longrightarrow": "&#10233;",
+                    "Leftarrow": "&#8656;",
                 }
                 if cmd in sym_map:
                     out.append(sym_map[cmd])

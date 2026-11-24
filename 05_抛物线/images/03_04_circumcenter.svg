@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 352" width="722" height="352">
+<rect width="722" height="352" fill="#ffffff"/>
+<clipPath id="plot"><rect x="0" y="0" width="424.0" height="352"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="24.0" y1="196.0" x2="410.0" y2="196.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="410.0,196.0 402.0,192.5 402.0,199.5" fill="#64748b"/>
+<text x="406.0" y="212.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="end" font-style="italic">x</text>
+<line x1="244.0" y1="328.0" x2="244.0" y2="22.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="244.0,22.0 240.5,30.0 247.5,30.0" fill="#64748b"/>
+<text x="252.0" y="32.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic">y</text>
+<text x="232.0" y="211.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic">O</text>
+<line x1="204.0" y1="328.0" x2="204.0" y2="24.0" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="198.0" y="36.0" font-family="serif" font-size="14" fill="#16a34a" text-anchor="end" font-style="italic">l</text>
+<polyline points="359.6,332.0 356.3,330.1 353.1,328.1 349.9,326.2 346.7,324.2 343.6,322.2 340.6,320.3 337.6,318.4 334.6,316.4 331.7,314.4 328.8,312.5 326.0,310.6 323.2,308.6 320.5,306.6 317.8,304.7 315.2,302.8 312.6,300.8 310.1,298.9 307.6,296.9 305.2,294.9 302.8,293.0 300.5,291.1 298.2,289.1 295.9,287.1 293.7,285.2 291.6,283.2 289.5,281.3 287.4,279.4 285.4,277.4 283.5,275.5 281.5,273.5 279.7,271.6 277.9,269.6 276.1,267.6 274.4,265.7 272.7,263.8 271.1,261.8 269.5,259.9 267.9,257.9 266.5,255.9 265.0,254.0 263.6,252.1 262.3,250.1 261.0,248.1 259.8,246.2 258.6,244.2 257.4,242.3 256.3,240.3 255.2,238.4 254.2,236.4 253.3,234.5 252.3,232.6 251.5,230.6 250.7,228.7 249.9,226.7 249.2,224.8 248.5,222.8 247.9,220.9 247.3,218.9 246.7,216.9 246.3,215.0 245.8,213.1 245.4,211.1 245.1,209.1 244.8,207.2 244.5,205.2 244.3,203.3 244.2,201.3 244.1,199.4 244.0,197.4 244.0,195.5 244.0,193.5 244.1,191.6 244.3,189.6 244.4,187.7 244.7,185.8 244.9,183.8 245.3,181.9 245.6,179.9 246.0,177.9 246.5,176.0 247.0,174.0 247.6,172.1 248.2,170.1 248.8,168.2 249.5,166.2 250.3,164.3 251.1,162.4 251.9,160.4 252.8,158.5 253.8,156.5 254.7,154.6 255.8,152.6 256.9,150.7 258.0,148.7 259.2,146.8 260.4,144.8 261.7,142.9 263.0,140.9 264.3,139.0 265.8,137.0 267.2,135.1 268.7,133.1 270.3,131.2 271.9,129.2 273.5,127.2 275.2,125.3 277.0,123.3 278.8,121.4 280.6,119.4 282.5,117.5 284.5,115.5 286.4,113.6 288.5,111.6 290.5,109.7 292.7,107.7 294.9,105.8 297.1,103.8 299.3,101.9 301.7,99.9 304.0,98.0 306.4,96.0 308.9,94.1 311.4,92.1 314.0,90.2 316.6,88.2 319.2,86.3 321.9,84.3 324.7,82.4 327.4,80.5 330.3,78.5 333.2,76.5 336.1,74.6 339.1,72.6 342.1,70.7 345.2,68.8 348.3,66.8 351.5,64.8 354.7,62.9 358.0,61.0 361.3,59.0 364.7,57.0 368.1,55.1 371.5,53.1 375.0,51.2 378.6,49.3 382.2,47.3 385.8,45.3 389.5,43.4 393.3,41.5 397.1,39.5 400.9,37.5 404.8,35.6 408.7,33.7 412.7,31.7 416.7,29.8 420.8,27.8 424.9,25.9 429.1,23.9" fill="none" stroke="#d4a5b3" stroke-width="1.4"/>
+<circle cx="156.5" cy="176.0" r="129.1" fill="#0f766e" fill-opacity="0.05" stroke="#0f766e" stroke-width="1.4" stroke-dasharray="6,4"/>
+<line x1="156.5" y1="176.0" x2="387.5" y2="44.0" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="156.5" y1="176.0" x2="336.5" y2="320.0" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="366.5" y1="56.0" x2="204.0" y2="56.0" stroke="#64748b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="306.5" y1="296.0" x2="204.0" y2="296.0" stroke="#64748b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="366.5" y1="56.0" x2="284.0" y2="196.0" stroke="#1e293b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="306.5" y1="296.0" x2="284.0" y2="196.0" stroke="#1e293b" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="204.0" y1="56.0" x2="284.0" y2="196.0" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="204.0" y1="296.0" x2="284.0" y2="196.0" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="156.5" y1="176.0" x2="204.0" y2="56.0" stroke="#0f766e" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="156.5" y1="176.0" x2="204.0" y2="296.0" stroke="#0f766e" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="156.5" y1="176.0" x2="284.0" y2="196.0" stroke="#0f766e" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="250.9,122.0 254.9,129.0 248.0,132.9" fill="none" stroke="#7c3aed" stroke-width="1.3"/>
+<polyline points="250.2,251.0 255.2,244.8 249.0,239.8" fill="none" stroke="#7c3aed" stroke-width="1.3"/>
+<line x1="229.2" y1="88.0" x2="218.8" y2="94.0" stroke="#7c3aed" stroke-width="1.4"/>
+<line x1="269.2" y1="158.0" x2="258.8" y2="164.0" stroke="#7c3aed" stroke-width="1.4"/>
+<line x1="218.1" y1="268.8" x2="227.4" y2="276.3" stroke="#7c3aed" stroke-width="1.4"/>
+<line x1="220.6" y1="265.7" x2="229.9" y2="273.2" stroke="#7c3aed" stroke-width="1.4"/>
+<line x1="258.1" y1="218.8" x2="267.4" y2="226.3" stroke="#7c3aed" stroke-width="1.4"/>
+<line x1="260.6" y1="215.7" x2="269.9" y2="223.2" stroke="#7c3aed" stroke-width="1.4"/>
+<circle cx="156.5" cy="176.0" r="3.2" fill="#1e293b"/>
+<text x="138.5" y="170.0" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic">P</text>
+<circle cx="366.5" cy="56.0" r="3.2" fill="#1e293b"/>
+<text x="362.5" y="46.0" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic">A</text>
+<circle cx="306.5" cy="296.0" r="3.2" fill="#1e293b"/>
+<text x="300.5" y="314.0" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic">B</text>
+<circle cx="204.0" cy="56.0" r="3.2" fill="#1e293b"/>
+<text x="180.0" y="52.0" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic">A′</text>
+<circle cx="204.0" cy="296.0" r="3.2" fill="#1e293b"/>
+<text x="180.0" y="310.0" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic">B′</text>
+<circle cx="284.0" cy="196.0" r="3.2" fill="#dc2626"/>
+<text x="292.0" y="190.0" font-family="serif" font-size="15" fill="#dc2626" text-anchor="start" font-style="italic">F</text>
+</g>
+<text x="426.0" y="24.0" font-family="sans-serif" font-size="12.5" fill="#7c3aed">k(FA′) = −y₁/p，k(PA) = p/y₁ ⇒ FA′ ⊥ PA</text>
+<text x="426.0" y="45.0" font-family="sans-serif" font-size="12.5" fill="#7c3aed">又 |AA′| = |AF| ⇒ PA 是 A′F 的中垂线</text>
+<text x="426.0" y="66.0" font-family="sans-serif" font-size="12.5" fill="#7c3aed">同理 PB 是 B′F 的中垂线</text>
+<text x="426.0" y="87.0" font-family="sans-serif" font-size="12.5" fill="#1e3a5f"></text>
+<text x="426.0" y="108.0" font-family="sans-serif" font-size="12.5" fill="#0f766e">⇒ |PA′| = |PF| = |PB′|：</text>
+<text x="426.0" y="129.0" font-family="sans-serif" font-size="12.5" fill="#0f766e">P 是 △A′FB′ 的外心（虚线圆）</text>
+<text x="426.0" y="150.0" font-family="sans-serif" font-size="12.5" fill="#dc2626">A′、F 关于 PA 对称 ⇒ ∠PFA = ∠PA′A</text>
+<text x="426.0" y="171.0" font-family="sans-serif" font-size="12.5" fill="#dc2626">B′、F 关于 PB 对称 ⇒ ∠PFB = ∠PB′B</text>
+</svg>

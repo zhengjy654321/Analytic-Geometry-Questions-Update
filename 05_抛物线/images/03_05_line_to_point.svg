@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 687 378" width="687" height="378">
+<rect width="687" height="378" fill="#ffffff"/>
+<clipPath id="plot"><rect x="0" y="0" width="399.2" height="378"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="23.6" y1="228.8" x2="385.4" y2="228.8" stroke="#64748b" stroke-width="1"/>
+<polygon points="385.4,228.8 377.4,225.3 377.4,232.3" fill="#64748b"/>
+<text x="381.4" y="244.8" font-family="serif" font-size="14" fill="#64748b" text-anchor="end" font-style="italic">x</text>
+<line x1="185.6" y1="354.8" x2="185.6" y2="21.8" stroke="#64748b" stroke-width="1"/>
+<polygon points="185.6,21.8 182.1,29.8 189.1,29.8" fill="#64748b"/>
+<text x="193.6" y="31.8" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic">y</text>
+<text x="173.6" y="243.8" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic">O</text>
+<polyline points="302.2,358.4 298.5,356.3 294.8,354.2 291.1,352.1 287.5,349.9 284.0,347.8 280.5,345.7 277.1,343.6 273.8,341.5 270.5,339.4 267.3,337.2 264.1,335.1 261.0,333.0 258.0,330.9 255.0,328.8 252.1,326.7 249.3,324.6 246.5,322.4 243.8,320.3 241.1,318.2 238.5,316.1 236.0,314.0 233.5,311.9 231.1,309.8 228.8,307.6 226.5,305.5 224.3,303.4 222.1,301.3 220.0,299.2 218.0,297.1 216.0,294.9 214.1,292.8 212.2,290.7 210.4,288.6 208.7,286.5 207.0,284.4 205.4,282.3 203.9,280.1 202.4,278.0 201.0,275.9 199.7,273.8 198.4,271.7 197.1,269.6 196.0,267.5 194.9,265.3 193.8,263.2 192.8,261.1 191.9,259.0 191.1,256.9 190.3,254.8 189.6,252.7 188.9,250.5 188.3,248.4 187.7,246.3 187.2,244.2 186.8,242.1 186.5,240.0 186.2,237.8 185.9,235.7 185.8,233.6 185.7,231.5 185.6,229.4 185.6,227.3 185.7,225.2 185.8,223.0 186.0,220.9 186.3,218.8 186.6,216.7 187.0,214.6 187.5,212.5 188.0,210.3 188.5,208.2 189.2,206.1 189.9,204.0 190.6,201.9 191.5,199.8 192.3,197.7 193.3,195.5 194.3,193.4 195.4,191.3 196.5,189.2 197.7,187.1 198.9,185.0 200.3,182.9 201.6,180.7 203.1,178.6 204.6,176.5 206.2,174.4 207.8,172.3 209.5,170.2 211.2,168.1 213.0,165.9 214.9,163.8 216.9,161.7 218.9,159.6 220.9,157.5 223.1,155.4 225.2,153.2 227.5,151.1 229.8,149.0 232.2,146.9 234.6,144.8 237.1,142.7 239.7,140.6 242.3,138.4 245.0,136.3 247.7,134.2 250.5,132.1 253.4,130.0 256.3,127.9 259.3,125.7 262.4,123.6 265.5,121.5 268.7,119.4 272.0,117.3 275.3,115.2 278.6,113.1 282.1,110.9 285.6,108.8 289.1,106.7 292.7,104.6 296.4,102.5 300.1,100.4 303.9,98.3 307.8,96.1 311.7,94.0 315.7,91.9 319.8,89.8 323.9,87.7 328.1,85.6 332.3,83.5 336.6,81.3 341.0,79.2 345.4,77.1 349.9,75.0 354.4,72.9 359.0,70.8 363.7,68.6 368.5,66.5 373.3,64.4 378.1,62.3 383.0,60.2 388.0,58.1 393.1,56.0 398.2,53.8 403.3,51.7" fill="none" stroke="#9f1239" stroke-width="2.0"/>
+<line x1="20.0" y1="322.4" x2="315.2" y2="27.2" stroke="#dc2626" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="279.8" y1="112.3" x2="199.4" y2="273.3" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="149.6" y1="192.8" x2="279.8" y2="112.3" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="149.6" y1="192.8" x2="199.4" y2="273.3" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="149.6" cy="192.8" r="3.2" fill="#2563eb"/>
+<line x1="257.6" y1="127.0" x2="257.6" y2="330.6" stroke="#0f766e" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="113.6" y1="228.8" x2="257.6" y2="127.0" stroke="#0f766e" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="113.6" y1="228.8" x2="257.6" y2="330.6" stroke="#0f766e" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="113.6" cy="228.8" r="3.2" fill="#0f766e"/>
+<line x1="383.4" y1="60.0" x2="188.0" y2="210.4" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="207.2" y1="135.2" x2="383.4" y2="60.0" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="207.2" y1="135.2" x2="188.0" y2="210.4" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="207.2" cy="135.2" r="3.2" fill="#7c3aed"/>
+<circle cx="257.6" cy="156.8" r="3.2" fill="#1e293b"/>
+<text x="263.6" y="150.8" font-family="serif" font-size="15" fill="#1e293b" text-anchor="start" font-style="italic"></text>
+<text x="265.6" y="174.8" font-family="serif" font-size="13" fill="#1e293b" text-anchor="start">(m/k, p/k)</text>
+<text x="30.8" y="207.2" font-family="serif" font-size="13" fill="#dc2626" text-anchor="start" font-style="italic">l：y = kx + m</text>
+</g>
+<text x="401.2" y="24.0" font-family="sans-serif" font-size="12.5" fill="#1e3a5f">P 在与抛物线无公共点的直线 l 上动：</text>
+<text x="401.2" y="45.0" font-family="sans-serif" font-size="12.5" fill="#2563eb">P(x₀, kx₀ + m)，AB：(kx₀ + m)y = p(x + x₀)</text>
+<text x="401.2" y="66.0" font-family="sans-serif" font-size="12.5" fill="#2563eb">按参数 x₀ 整理：x₀(ky − p) + (my − px) = 0</text>
+<text x="401.2" y="87.0" font-family="sans-serif" font-size="12.5" fill="#dc2626">令 ky − p = 0 且 my − px = 0</text>
+<text x="401.2" y="108.0" font-family="sans-serif" font-size="12.5" fill="#dc2626">⇒ AB 恒过定点 (m/k, p/k)</text>
+<text x="401.2" y="129.0" font-family="sans-serif" font-size="12.5" fill="#1e3a5f"></text>
+<text x="401.2" y="150.0" font-family="sans-serif" font-size="12.5" fill="#64748b">图中 k = 1，m = 2，p = 2 ⇒ 定点 (2, 2)</text>
+</svg>
