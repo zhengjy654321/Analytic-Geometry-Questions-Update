@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+<rect width="760" height="300" fill="#ffffff"/>
+<line x1="340" y1="145" x2="417" y2="145" stroke="#1e293b" stroke-width="2"/>
+<polygon points="425,145 414,140 414,150" fill="#1e293b"/>
+<text x="382.5" y="135.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">面积 × a/b</text>
+<line x1="33.0" y1="145.0" x2="327.0" y2="145.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="333.0,145.0 325.0,141.0 325.0,149.0" fill="#94a3b8"/>
+<line x1="180.0" y1="259.0" x2="180.0" y2="31.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="180.0,25.0 176.0,33.0 184.0,33.0" fill="#94a3b8"/>
+<text x="329.0" y="161.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">x</text>
+<text x="190.0" y="33.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">y</text>
+<line x1="438.0" y1="145.0" x2="732.0" y2="145.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="738.0,145.0 730.0,141.0 730.0,149.0" fill="#94a3b8"/>
+<line x1="585.0" y1="283.0" x2="585.0" y2="7.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="585.0,1.0 581.0,9.0 589.0,9.0" fill="#94a3b8"/>
+<text x="734.0" y="161.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">x</text>
+<text x="595.0" y="9.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">y</text>
+<ellipse cx="180.0" cy="145.0" rx="120.0" ry="72.0" fill="#eff6ff" fill-opacity="0.7" stroke="#2563eb" stroke-width="1.8"/>
+<ellipse cx="585.0" cy="145.0" rx="120.0" ry="120.0" fill="#f0fdf4" fill-opacity="0.7" stroke="#16a34a" stroke-width="1.8"/>
+<polygon points="180.0,145.0 221.0,77.3 60.5,151.3" fill="#d97706" fill-opacity="0.3" stroke="none"/>
+<line x1="180.0" y1="145.0" x2="221.0" y2="77.3" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="180.0" y1="145.0" x2="60.5" y2="151.3" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="221.0" y1="77.3" x2="60.5" y2="151.3" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="180.0" cy="145.0" r="3.2" fill="#1e293b"/>
+<text x="190.0" y="164.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<circle cx="221.0" cy="77.3" r="3.2" fill="#1e293b"/>
+<text x="233.0" y="72.3" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A</text>
+<circle cx="60.5" cy="151.3" r="3.2" fill="#1e293b"/>
+<text x="46.5" y="148.3" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B</text>
+<polygon points="585.0,145.0 626.0,32.2 465.5,155.5" fill="#d97706" fill-opacity="0.3" stroke="none"/>
+<line x1="585.0" y1="145.0" x2="626.0" y2="32.2" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="585.0" y1="145.0" x2="465.5" y2="155.5" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="626.0" y1="32.2" x2="465.5" y2="155.5" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="585.0" cy="145.0" r="3.2" fill="#1e293b"/>
+<text x="595.0" y="164.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<circle cx="626.0" cy="32.2" r="3.2" fill="#1e293b"/>
+<text x="638.0" y="27.2" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A′</text>
+<circle cx="465.5" cy="155.5" r="3.2" fill="#1e293b"/>
+<text x="451.5" y="152.5" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B′</text>
+<text x="180.0" y="285.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">S = S△AOB</text>
+<text x="585.0" y="285.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">S′ = S△A′OB′ = (a/b)·S</text>
+</svg>

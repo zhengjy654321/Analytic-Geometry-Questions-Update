@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+<rect width="800" height="420" fill="#ffffff"/>
+<line x1="370" y1="200" x2="432" y2="200" stroke="#1e293b" stroke-width="2"/>
+<polygon points="440,200 429,195 429,205" fill="#1e293b"/>
+<text x="405.0" y="190.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">y′ = 2y</text>
+<line x1="-1.0" y1="200.0" x2="351.0" y2="200.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="357.0,200.0 349.0,196.0 349.0,204.0" fill="#94a3b8"/>
+<line x1="175.0" y1="304.0" x2="175.0" y2="96.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="175.0,90.0 171.0,98.0 179.0,98.0" fill="#94a3b8"/>
+<text x="353.0" y="216.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">x</text>
+<text x="185.0" y="98.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">y</text>
+<line x1="439.0" y1="200.0" x2="791.0" y2="200.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="797.0,200.0 789.0,196.0 789.0,204.0" fill="#94a3b8"/>
+<line x1="615.0" y1="376.0" x2="615.0" y2="24.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="615.0,18.0 611.0,26.0 619.0,26.0" fill="#94a3b8"/>
+<text x="793.0" y="216.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">x</text>
+<text x="625.0" y="26.0" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">y</text>
+<ellipse cx="175.0" cy="200.0" rx="160.0" ry="80.0" fill="#e0f2fe" fill-opacity="0.7" stroke="#0369a1" stroke-width="1.8"/>
+<ellipse cx="175.0" cy="200.0" rx="80.0" ry="40.0" fill="#eff6ff" fill-opacity="0.7" stroke="#2563eb" stroke-width="1.8"/>
+<ellipse cx="615.0" cy="200.0" rx="160.0" ry="160.0" fill="#ecfdf5" fill-opacity="0.7" stroke="#15803d" stroke-width="1.8"/>
+<ellipse cx="615.0" cy="200.0" rx="80.0" ry="80.0" fill="#d1fae5" fill-opacity="0.7" stroke="#16a34a" stroke-width="1.8"/>
+<polygon points="24.6,227.4 202.8,121.2 297.6,251.4" fill="#d97706" fill-opacity="0.22" stroke="none"/>
+<line x1="24.6" y1="227.4" x2="202.8" y2="121.2" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+<line x1="24.6" y1="227.4" x2="297.6" y2="251.4" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="202.8" y1="121.2" x2="297.6" y2="251.4" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="113.7" y1="174.3" x2="297.6" y2="251.4" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6,3"/>
+<circle cx="113.7" cy="174.3" r="3.2" fill="#1e293b"/>
+<text x="99.7" y="189.3" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">P</text>
+<circle cx="24.6" cy="227.4" r="3.2" fill="#1e293b"/>
+<text x="32.6" y="220.4" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A</text>
+<circle cx="202.8" cy="121.2" r="3.2" fill="#1e293b"/>
+<text x="188.8" y="122.2" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B</text>
+<circle cx="297.6" cy="251.4" r="3.2" fill="#1e293b"/>
+<text x="309.6" y="266.4" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">Q</text>
+<circle cx="175.0" cy="200.0" r="3.2" fill="#1e293b"/>
+<text x="187.0" y="197.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<polygon points="464.6,254.7 642.8,42.4 737.6,302.8" fill="#d97706" fill-opacity="0.22" stroke="none"/>
+<line x1="464.6" y1="254.7" x2="642.8" y2="42.4" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+<line x1="464.6" y1="254.7" x2="737.6" y2="302.8" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="642.8" y1="42.4" x2="737.6" y2="302.8" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="553.7" y1="148.6" x2="737.6" y2="302.8" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6,3"/>
+<circle cx="553.7" cy="148.6" r="3.2" fill="#1e293b"/>
+<text x="539.7" y="163.6" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">P′</text>
+<circle cx="464.6" cy="254.7" r="3.2" fill="#1e293b"/>
+<text x="472.6" y="247.7" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A′</text>
+<circle cx="642.8" cy="42.4" r="3.2" fill="#1e293b"/>
+<text x="628.8" y="43.4" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B′</text>
+<circle cx="737.6" cy="302.8" r="3.2" fill="#1e293b"/>
+<text x="749.6" y="317.8" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">Q′</text>
+<circle cx="615.0" cy="200.0" r="3.2" fill="#1e293b"/>
+<text x="627.0" y="197.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<polyline points="561.4,155.0 554.9,162.7 547.3,156.2" fill="none" stroke="#dc2626" stroke-width="1.4"/>
+<text x="175.0" y="405.0" font-size="14" fill="#2563eb" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">C：x²/4 + y² = 1，E：x²/16 + y²/4 = 1</text>
+<text x="615.0" y="405.0" font-size="14" fill="#16a34a" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">两个同心圆，r = 2 与 R = 4</text>
+</svg>

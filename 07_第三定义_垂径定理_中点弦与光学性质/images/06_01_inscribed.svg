@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 335" width="760" height="335">
+<rect width="760" height="335" fill="#ffffff"/>
+<line x1="340" y1="172" x2="417" y2="172" stroke="#1e293b" stroke-width="2"/>
+<polygon points="425,172 414,167 414,177" fill="#1e293b"/>
+<text x="382.5" y="162.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">面积 × b/a</text>
+<line x1="33.0" y1="172.0" x2="327.0" y2="172.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="333.0,172.0 325.0,168.0 325.0,176.0" fill="#94a3b8"/>
+<line x1="180.0" y1="310.0" x2="180.0" y2="34.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="180.0,28.0 176.0,36.0 184.0,36.0" fill="#94a3b8"/>
+<line x1="438.0" y1="172.0" x2="732.0" y2="172.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="738.0,172.0 730.0,168.0 730.0,176.0" fill="#94a3b8"/>
+<line x1="585.0" y1="286.0" x2="585.0" y2="58.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="585.0,52.0 581.0,60.0 589.0,60.0" fill="#94a3b8"/>
+<ellipse cx="180.0" cy="172.0" rx="120.0" ry="120.0" fill="#f0fdf4" fill-opacity="0.7" stroke="#16a34a" stroke-width="1.8"/>
+<ellipse cx="585.0" cy="172.0" rx="120.0" ry="72.0" fill="#eff6ff" fill-opacity="0.7" stroke="#2563eb" stroke-width="1.8"/>
+<polygon points="180.0,52.0 76.1,232.0 283.9,232.0" fill="#d97706" fill-opacity="0.28" stroke="none"/>
+<line x1="180.0" y1="52.0" x2="76.1" y2="232.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="76.1" y1="232.0" x2="283.9" y2="232.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="283.9" y1="232.0" x2="180.0" y2="52.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="180.0" cy="172.0" r="3.2" fill="#1e293b"/>
+<text x="190.0" y="191.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<circle cx="180.0" cy="52.0" r="3.2" fill="#1e293b"/>
+<text x="196.0" y="47.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A′</text>
+<circle cx="76.1" cy="232.0" r="3.2" fill="#1e293b"/>
+<text x="64.1" y="247.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B′</text>
+<circle cx="283.9" cy="232.0" r="3.2" fill="#1e293b"/>
+<text x="295.9" y="247.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">C′</text>
+<polygon points="585.0,100.0 481.1,208.0 688.9,208.0" fill="#d97706" fill-opacity="0.28" stroke="none"/>
+<line x1="585.0" y1="100.0" x2="481.1" y2="208.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="481.1" y1="208.0" x2="688.9" y2="208.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="688.9" y1="208.0" x2="585.0" y2="100.0" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="585.0" cy="172.0" r="3.2" fill="#1e293b"/>
+<text x="595.0" y="191.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">O</text>
+<circle cx="585.0" cy="100.0" r="3.2" fill="#1e293b"/>
+<text x="601.0" y="95.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A</text>
+<circle cx="481.1" cy="208.0" r="3.2" fill="#1e293b"/>
+<text x="469.1" y="223.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B</text>
+<circle cx="688.9" cy="208.0" r="3.2" fill="#1e293b"/>
+<text x="700.9" y="223.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">C</text>
+<text x="180.0" y="322.0" font-size="14" fill="#16a34a" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">圆内接正三角形面积最大：(3√3/4)a²</text>
+<text x="585.0" y="322.0" font-size="14" fill="#2563eb" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">椭圆内接三角形最大面积：(3√3/4)ab</text>
+</svg>

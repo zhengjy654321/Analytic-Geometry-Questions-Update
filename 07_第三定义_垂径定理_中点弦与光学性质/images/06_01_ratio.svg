@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320">
+<rect width="760" height="320" fill="#ffffff"/>
+<line x1="335" y1="165" x2="412" y2="165" stroke="#1e293b" stroke-width="2"/>
+<polygon points="420,165 409,160 409,170" fill="#1e293b"/>
+<text x="377.5" y="135.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">同一直线上</text>
+<text x="377.5" y="154.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">线段比不变</text>
+<line x1="43.0" y1="175.0" x2="318.0" y2="175.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="324.0,175.0 316.0,171.0 316.0,179.0" fill="#94a3b8"/>
+<line x1="175.0" y1="268.5" x2="175.0" y2="32.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="175.0,26.0 171.0,34.0 179.0,34.0" fill="#94a3b8"/>
+<line x1="443.0" y1="175.0" x2="718.0" y2="175.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="724.0,175.0 716.0,171.0 716.0,179.0" fill="#94a3b8"/>
+<line x1="575.0" y1="301.5" x2="575.0" y2="32.0" stroke="#94a3b8" stroke-width="1"/>
+<polygon points="575.0,26.0 571.0,34.0 579.0,34.0" fill="#94a3b8"/>
+<ellipse cx="175.0" cy="175.0" rx="110.0" ry="66.0" fill="#eff6ff" fill-opacity="0.7" stroke="#2563eb" stroke-width="1.8"/>
+<ellipse cx="575.0" cy="175.0" rx="110.0" ry="110.0" fill="#f0fdf4" fill-opacity="0.7" stroke="#16a34a" stroke-width="1.8"/>
+<line x1="301.5" y1="110.7" x2="71.6" y2="197.6" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="301.5" cy="110.7" r="3.2" fill="#1e293b"/>
+<text x="311.5" y="105.7" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">P</text>
+<circle cx="253.5" cy="128.8" r="3.2" fill="#1e293b"/>
+<text x="257.5" y="119.8" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A</text>
+<circle cx="71.6" cy="197.6" r="3.2" fill="#1e293b"/>
+<text x="57.6" y="198.6" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B</text>
+<line x1="701.5" y1="67.8" x2="471.6" y2="212.6" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="701.5" cy="67.8" r="3.2" fill="#1e293b"/>
+<text x="711.5" y="62.8" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">P′</text>
+<circle cx="653.5" cy="98.0" r="3.2" fill="#1e293b"/>
+<text x="657.5" y="89.0" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">A′</text>
+<circle cx="471.6" cy="212.6" r="3.2" fill="#1e293b"/>
+<text x="457.6" y="213.6" font-size="16" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal" font-style="italic">B′</text>
+<text x="175.0" y="305.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">|PA| : |PB| = λ</text>
+<text x="575.0" y="305.0" font-size="14" fill="#1e293b" text-anchor="middle" font-family="Times New Roman, Noto Serif CJK SC, serif" font-weight="normal">|P′A′| : |P′B′| = λ（比值不变，长度变了）</text>
+</svg>
