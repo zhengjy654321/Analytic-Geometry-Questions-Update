@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381.0 330.4" width="381.0" height="330.4">
+<rect width="381.0" height="330.4" fill="#ffffff"/>
+<clipPath id="cc9b3e58bbf"><rect x="9.0" y="9.0" width="363.0" height="312.4"/></clipPath>
+<g clip-path="url(#cc9b3e58bbf)">
+<line x1="20.0" y1="257.2" x2="361.0" y2="257.2" stroke="#64748b" stroke-width="1"/>
+<polygon points="361.0,257.2 353.0,253.7 353.0,260.7" fill="#64748b"/>
+<line x1="87.0" y1="310.4" x2="87.0" y2="20.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="87.0,20.0 83.5,28.0 90.5,28.0" fill="#64748b"/>
+<circle cx="225.0" cy="156.0" r="82.8" fill="none" fill-opacity="1" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="225.0" y1="156.0" x2="288.3" y2="102.7" stroke="#dc2626" stroke-width="1.8" stroke-linecap="round"/>
+</g>
+<text x="353.0" y="273.2" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">x</text>
+<text x="96.0" y="30.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">y</text>
+<text x="74.0" y="272.2" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">O</text>
+<circle cx="225.0" cy="156.0" r="3.2" fill="#111827" stroke="#111827" stroke-width="1.3"/>
+<text x="205.0" y="174.0" font-family="serif" font-size="14" fill="#111827" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">C(a, b)</text>
+<circle cx="288.3" cy="102.7" r="3.2" fill="#111827" stroke="#111827" stroke-width="1.3"/>
+<text x="294.3" y="98.7" font-family="serif" font-size="14" fill="#111827" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">M(x, y)</text>
+<text x="246.7" y="125.3" font-family="serif" font-size="14" fill="#dc2626" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">r</text>
+<circle cx="335.4" cy="45.6" r="3.2" fill="#64748b" stroke="#64748b" stroke-width="1.3"/>
+<text x="341.4" y="49.6" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">外</text>
+<circle cx="252.6" cy="202.0" r="3.2" fill="#64748b" stroke="#64748b" stroke-width="1.3"/>
+<text x="258.6" y="206.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">内</text>
+<text x="28.6" y="21.2" font-family="'Noto Sans CJK SC','Source Han Sans SC',sans-serif" font-size="12" fill="#1d4ed8" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">(x − a)² + (y − b)² = r²：|MC| = r</text>
+</svg>

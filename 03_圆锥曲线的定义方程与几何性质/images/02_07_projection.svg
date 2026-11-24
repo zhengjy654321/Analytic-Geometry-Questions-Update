@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 454.0 289.0" width="454.0" height="289.0">
+<rect width="454.0" height="289.0" fill="#ffffff"/>
+<clipPath id="ccac367601f"><rect x="9.0" y="9.0" width="436.0" height="271.0"/></clipPath>
+<g clip-path="url(#ccac367601f)">
+<line x1="20.0" y1="205.0" x2="434.0" y2="205.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="434.0,205.0 426.0,201.5 426.0,208.5" fill="#64748b"/>
+<line x1="84.0" y1="269.0" x2="84.0" y2="20.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="84.0,20.0 80.5,28.0 87.5,28.0" fill="#64748b"/>
+<polygon points="84.0,205.0 260.0,73.0 359.0,205.0" fill="#dc2626" fill-opacity="0.08" stroke="#111827" stroke-width="1.5"/>
+<line x1="260.0" y1="73.0" x2="260.0" y2="205.0" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+<polyline points="251.2,79.6 257.8,88.4 266.6,81.8" fill="none" fill-opacity="1" stroke="#111827" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="268.8,205.0 268.8,196.2 260.0,196.2" fill="none" fill-opacity="1" stroke="#111827" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="426.0" y="221.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">x</text>
+<text x="93.0" y="30.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">y</text>
+<text x="71.0" y="220.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">O</text>
+<circle cx="260.0" cy="73.0" r="3.2" fill="#111827" stroke="#111827" stroke-width="1.3"/>
+<text x="256.0" y="63.0" font-family="serif" font-size="14" fill="#111827" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">H</text>
+<circle cx="260.0" cy="205.0" r="3.2" fill="#111827" stroke="#111827" stroke-width="1.3"/>
+<text x="254.0" y="223.0" font-family="serif" font-size="14" fill="#111827" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">D</text>
+<circle cx="359.0" cy="205.0" r="3.2" fill="#111827" stroke="#111827" stroke-width="1.3"/>
+<text x="361.0" y="223.0" font-family="serif" font-size="14" fill="#111827" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">F₂</text>
+<text x="158.0" y="137.0" font-family="serif" font-size="14" fill="#1d4ed8" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">a</text>
+<text x="315.5" y="137.0" font-family="serif" font-size="14" fill="#dc2626" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">b</text>
+<text x="158.0" y="223.0" font-family="serif" font-size="14" fill="#1d4ed8" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">a²/c</text>
+<text x="297.5" y="223.0" font-family="serif" font-size="14" fill="#dc2626" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">b²/c</text>
+<text x="266.0" y="181.0" font-family="serif" font-size="14" fill="#16a34a" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">ab/c</text>
+<text x="35.0" y="28.5" font-family="'Noto Sans CJK SC','Source Han Sans SC',sans-serif" font-size="12" fill="#111827" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">射影定理：|OD| = a²/c（中心到准线），|DF₂| = b²/c（焦准距），|HD| = ab/c</text>
+</svg>
