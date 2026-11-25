@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496.0 266.0" width="496.0" height="266.0">
+<rect width="496.0" height="266.0" fill="#ffffff"/>
+<g transform="translate(0.0,0)"><rect width="240.0" height="266.0" fill="#ffffff"/>
+<text x="120.0" y="20" font-family="'Noto Sans CJK SC',sans-serif" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">纯粹性 ≠ 完备性</text>
+<clipPath id="c92849cae3e"><rect x="9.0" y="35.0" width="222.0" height="222.0"/></clipPath>
+<g clip-path="url(#c92849cae3e)">
+<line x1="20.0" y1="146.0" x2="220.0" y2="146.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="220.0,146.0 212.0,142.5 212.0,149.5" fill="#64748b"/>
+<line x1="120.0" y1="246.0" x2="120.0" y2="46.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="120.0,46.0 116.5,54.0 123.5,54.0" fill="#64748b"/>
+<polyline points="120.0,146.0 222.0,44.0" fill="none" fill-opacity="1" stroke="#1d4ed8" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="120.0,146.0 18.0,248.0" fill="none" fill-opacity="1" stroke="#64748b" stroke-width="1.2" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="212.0" y="162.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">x</text>
+<text x="129.0" y="56.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">y</text>
+<text x="107.0" y="161.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">O</text>
+<text x="68.0" y="72.0" font-family="serif" font-size="12" fill="#1d4ed8" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">射线 y = x（x ≥ 0）</text>
+<text x="58.0" y="218.0" font-family="serif" font-size="12" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">方程 y = x 还多出这半条</text>
+</g>
+<g transform="translate(256.0,0)"><rect width="240.0" height="266.0" fill="#ffffff"/>
+<text x="120.0" y="20" font-family="'Noto Sans CJK SC',sans-serif" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">方程 x² − y² = 0</text>
+<clipPath id="c7f5a0118ee"><rect x="9.0" y="35.0" width="222.0" height="222.0"/></clipPath>
+<g clip-path="url(#c7f5a0118ee)">
+<line x1="20.0" y1="146.0" x2="220.0" y2="146.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="220.0,146.0 212.0,142.5 212.0,149.5" fill="#64748b"/>
+<line x1="120.0" y1="246.0" x2="120.0" y2="46.0" stroke="#64748b" stroke-width="1"/>
+<polygon points="120.0,46.0 116.5,54.0 123.5,54.0" fill="#64748b"/>
+<line x1="-1322.5" y1="1588.5" x2="1562.5" y2="-1296.5" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+<line x1="-1322.5" y1="-1296.5" x2="1562.5" y2="1588.5" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+</g>
+<text x="212.0" y="162.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">x</text>
+<text x="129.0" y="56.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">y</text>
+<text x="107.0" y="161.0" font-family="serif" font-size="14" fill="#64748b" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">O</text>
+<text x="21.4" y="57.6" font-family="serif" font-size="12" fill="#dc2626" text-anchor="start" font-style="italic" paint-order="stroke" stroke="#ffffff" stroke-width="3" stroke-linejoin="round">两条直线 y = ±x</text>
+</g>
+</svg>
